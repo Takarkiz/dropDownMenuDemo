@@ -1,0 +1,12 @@
+PODS:
+  - GuillotineMenu (3.0)
+
+DEPENDENCIES:
+  - GuillotineMenu (~> 3.0)
+
+SPEC CHECKSUMS:
+  GuillotineMenu: 611ccb58ae092f2d929535377570ef25a7b5bc63
+
+PODFILE CHECKSUM: 5d1cdcdb592a9aa898af830f10853dde071a1702
+
+COCOAPODS: 1.1.1

@@ -1,0 +1,6 @@
+framework module Pods_manuePodtest {
+  umbrella header "Pods-manuePodtest-umbrella.h"
+
+  export *
+  module * { export * }
+}
