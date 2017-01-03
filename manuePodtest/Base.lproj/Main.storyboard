@@ -21,48 +21,40 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yJ2-Qi-qh7">
-                                <rect key="frame" x="67" y="163" width="240" height="242"/>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JMI-3U-XXl">
+                                <rect key="frame" x="41" y="184" width="292" height="231"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b0u-5n-h1L">
-                                        <rect key="frame" x="52" y="8" width="138" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VpJ-ui-LV6">
+                                        <rect key="frame" x="126" y="15" width="41" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="1.計器画面"/>
+                                        <state key="normal" title="Topへ"/>
                                         <connections>
-                                            <action selector="menuButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uxq-NZ-9xD"/>
+                                            <action selector="menuButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vLI-dL-0Ro"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yhc-LL-U70">
-                                        <rect key="frame" x="68" y="57" width="105" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rhl-V3-qAk">
+                                        <rect key="frame" x="123" y="65" width="46" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="2.現在のデータ"/>
+                                        <state key="normal" title="メニュ"/>
                                         <connections>
-                                            <action selector="menuButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nw7-ZE-RP9"/>
+                                            <action selector="menuButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bp7-Wu-wAC"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m8o-Ud-K8z">
-                                        <rect key="frame" x="69" y="104" width="105" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bOW-4f-oBh">
+                                        <rect key="frame" x="123" y="117" width="46" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="3.過去のデータ"/>
+                                        <state key="normal" title="データ"/>
                                         <connections>
-                                            <action selector="menuButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="I3z-5J-CBY"/>
+                                            <action selector="menuButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gip-3y-RMn"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uGG-ev-LpP">
-                                        <rect key="frame" x="90" y="154" width="62" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="スタート"/>
-                                        <connections>
-                                            <action selector="menuButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zRw-V1-1o5"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8ST-8R-vbW">
-                                        <rect key="frame" x="98" y="192" width="46" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w6e-ZX-tcx">
+                                        <rect key="frame" x="123" y="171" width="46" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="閉じる"/>
                                         <connections>
-                                            <action selector="closeMenu:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qan-DH-3nJ"/>
+                                            <action selector="closeMenu:" destination="BYZ-38-t0r" eventType="touchUpInside" id="s4d-z1-zTt"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -91,13 +83,19 @@
                         <gestureRecognizers/>
                     </view>
                     <navigationItem key="navigationItem" title="Top" id="YIv-4C-30B">
-                        <barButtonItem key="leftBarButtonItem" image="メニューの無料アイコン5.png" id="itN-J8-30c">
-                            <connections>
-                                <action selector="showMenuAction:" destination="yUb-bd-4XS" id="tUL-eI-g7i"/>
-                            </connections>
+                        <barButtonItem key="leftBarButtonItem" title="Item" style="plain" id="q2T-He-LRi">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="jwo-nD-mQ6">
+                                <rect key="frame" x="16" y="11" width="35" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="メニューの無料アイコン5.png"/>
+                                <connections>
+                                    <action selector="showMenuAction:" destination="yUb-bd-4XS" eventType="touchUpInside" id="DyQ-tr-tz8"/>
+                                </connections>
+                            </button>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="barButton" destination="jwo-nD-mQ6" id="uk7-Sx-7JJ"/>
                         <segue destination="BYZ-38-t0r" kind="show" identifier="showMenuSegue" id="lbo-JW-rq1"/>
                     </connections>
                 </viewController>

@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController{
     
     fileprivate lazy var presentationAnimator = GuillotineTransitionAnimation()
-    
+    @IBOutlet fileprivate var barButton: UIButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()
