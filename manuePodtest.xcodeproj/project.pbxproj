@@ -19,7 +19,6 @@
 		3C5A078E1E1B9DE50063B145 /* manuePodtestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5A078D1E1B9DE50063B145 /* manuePodtestUITests.swift */; };
 		3C6715561E1BA2F4003B2BCC /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6715551E1BA2F4003B2BCC /* MenuViewController.swift */; };
 		3C6715601E1BA846003B2BCC /* GuillotineMenuTransitionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6715571E1BA846003B2BCC /* GuillotineMenuTransitionAnimation.swift */; };
-		3C6715611E1BA846003B2BCC /* GuillotineMenu.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3C6715591E1BA846003B2BCC /* GuillotineMenu.xcconfig */; };
 		3C6715621E1BA846003B2BCC /* GuillotineMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C67155A1E1BA846003B2BCC /* GuillotineMenu-dummy.m */; };
 		3C6715631E1BA846003B2BCC /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3C67155D1E1BA846003B2BCC /* Info.plist */; };
 		3CCDD3E81E1BBE2A0097C365 /* メニューの無料アイコン5.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CCDD3E71E1BBE2A0097C365 /* メニューの無料アイコン5.png */; };
@@ -331,7 +330,6 @@
 				3C5A07731E1B9DE50063B145 /* Main.storyboard in Resources */,
 				3CCDD3E81E1BBE2A0097C365 /* メニューの無料アイコン5.png in Resources */,
 				3C6715631E1BA846003B2BCC /* Info.plist in Resources */,
-				3C6715611E1BA846003B2BCC /* GuillotineMenu.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -648,6 +646,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E6628A9066BA0712FAD240C9 /* Pods-manuePodtest.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QZG94MSA64;
 				INFOPLIST_FILE = manuePodtest/Info.plist;
@@ -662,6 +661,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 02A930A36D675A3895606264 /* Pods-manuePodtest.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QZG94MSA64;
 				INFOPLIST_FILE = manuePodtest/Info.plist;

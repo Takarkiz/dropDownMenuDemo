@@ -26,7 +26,7 @@ class MenuViewController: UIViewController,GuillotineMenu {
         titleLabel = {
             let label = UILabel()
             label.numberOfLines = 1;
-            label.text = "table"
+            label.text = "Top"
             label.font = UIFont.boldSystemFont(ofSize: 17)
             label.textColor = UIColor.white
             label.sizeToFit()
