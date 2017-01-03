@@ -9,9 +9,29 @@
 import UIKit
 
 class MenuViewController: UIViewController,GuillotineMenu {
+    
+    var dismissButton: UIButton?
+    var titleLabel: UILabel?
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        dismissButton = {
+            let button = UIButton(frame: .zero)
+            button.setTitle("Top", for: .normal)
+            button.addTarget(self, action: #selector(dismissButtonTapped(_:)), for: .touchUpInside)
+            return button
+        }()
+        
+        titleLabel = {
+            let label = UILabel()
+            label.numberOfLines = 1;
+            label.text = "table"
+            label.font = UIFont.boldSystemFont(ofSize: 17)
+            label.textColor = UIColor.white
+            label.sizeToFit()
+            return label
+        }()
 
         // Do any additional setup after loading the view.
     }

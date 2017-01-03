@@ -22,6 +22,7 @@
 		3C6715611E1BA846003B2BCC /* GuillotineMenu.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3C6715591E1BA846003B2BCC /* GuillotineMenu.xcconfig */; };
 		3C6715621E1BA846003B2BCC /* GuillotineMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C67155A1E1BA846003B2BCC /* GuillotineMenu-dummy.m */; };
 		3C6715631E1BA846003B2BCC /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3C67155D1E1BA846003B2BCC /* Info.plist */; };
+		3CCDD3E81E1BBE2A0097C365 /* メニューの無料アイコン5.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CCDD3E71E1BBE2A0097C365 /* メニューの無料アイコン5.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		3C67155B1E1BA846003B2BCC /* GuillotineMenu-prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GuillotineMenu-prefix.pch"; sourceTree = "<group>"; };
 		3C67155C1E1BA846003B2BCC /* GuillotineMenu-umbrella.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GuillotineMenu-umbrella.h"; sourceTree = "<group>"; };
 		3C67155D1E1BA846003B2BCC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CCDD3E71E1BBE2A0097C365 /* メニューの無料アイコン5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "メニューの無料アイコン5.png"; sourceTree = "<group>"; };
 		41F5CF9E4115D0288E23DDA6 /* Pods-manuePodtestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-manuePodtestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-manuePodtestTests/Pods-manuePodtestTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7DE43237390971873727C71E /* Pods_manuePodtest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_manuePodtest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A070CC747168ABF215253D9 /* Pods-manuePodtestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-manuePodtestUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-manuePodtestUITests/Pods-manuePodtestUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 				3C5A076F1E1B9DE40063B145 /* ViewController.swift */,
 				3C6715551E1BA2F4003B2BCC /* MenuViewController.swift */,
 				3C5A07711E1B9DE50063B145 /* Main.storyboard */,
+				3CCDD3E71E1BBE2A0097C365 /* メニューの無料アイコン5.png */,
 				3C5A07741E1B9DE50063B145 /* Assets.xcassets */,
 				3C5A07761E1B9DE50063B145 /* LaunchScreen.storyboard */,
 				3C5A07791E1B9DE50063B145 /* Info.plist */,
@@ -326,6 +329,7 @@
 				3C5A07781E1B9DE50063B145 /* LaunchScreen.storyboard in Resources */,
 				3C5A07751E1B9DE50063B145 /* Assets.xcassets in Resources */,
 				3C5A07731E1B9DE50063B145 /* Main.storyboard in Resources */,
+				3CCDD3E81E1BBE2A0097C365 /* メニューの無料アイコン5.png in Resources */,
 				3C6715631E1BA846003B2BCC /* Info.plist in Resources */,
 				3C6715611E1BA846003B2BCC /* GuillotineMenu.xcconfig in Resources */,
 			);
